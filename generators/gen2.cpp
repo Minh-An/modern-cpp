@@ -1,5 +1,5 @@
 /*
- * This implementation of generators is the C++14 implementation using lambdas.
+ * Implement generators using C++14 lambda feature.
  */
 
 #include <iostream> 

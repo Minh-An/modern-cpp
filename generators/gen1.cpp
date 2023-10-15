@@ -1,6 +1,5 @@
 /*
- * This implementation of generators is the old C++11 implementation before 
- * C++14 using classes.
+ * Implement generators using old C++.
  */
 
 #include <iostream>

@@ -1,10 +1,12 @@
 /*
- * This implementation of generators is the modern C++20 implementation
- * using coroutines.
+ * Implement generators using C++20 coroutines.
+ * To compile:
+ *    clang++ -std=c++2a gen3.cpp
  */
 
 #include <coroutine>
-#include <iostream> 
+#include <iostream>
+#include <cassert>
 
 template <typename T> 
 struct generator {
